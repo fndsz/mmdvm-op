@@ -16,7 +16,10 @@ msgid "AuthKey"
 msgstr "密钥"
 
 msgid "BER"
-msgstr "误码"
+msgstr "误码率"
+
+msgid "Transmiting ..."
+msgstr "发射中..."
 
 msgid "Callsign"
 msgstr "呼号"
@@ -109,6 +112,9 @@ msgstr "在此你可以编辑设备的配置，如呼号、操作模式等"
 
 msgid "ID"
 msgstr ""
+
+msgid "Pos"
+msgstr "位置"
 
 msgid "InactivityTimeout"
 msgstr "最大空闲时间"
@@ -287,7 +293,7 @@ msgid "Timeslot"
 msgstr "时隙"
 
 msgid "URL"
-msgstr ""
+msgstr "URL地址"
 
 msgid "Use the format <abbr title=\"the Unit is Hz\">434500000</abbr>, in Hz"
 msgstr "例如434500000，默认单位是赫兹"
