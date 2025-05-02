@@ -18,7 +18,7 @@ jobs:
             sdk_name: -sdk-21.02.0-ramips-mt7621
 
     env:
-      PACKAGE_NAME: luci-app-netwizard
+      PACKAGE_NAME: mmdvm
       SDK_URL_PATH: ${{ matrix.sdk_url_path }}
       SDK_NAME: ${{ matrix.sdk_name }}
       ARCH: ${{ matrix.arch }}
