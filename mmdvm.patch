@@ -8,19 +8,19 @@ index 0000000..4cabf1b
 +--- a/Conf.cpp
 ++++ b/Conf.cpp
 +@@ -189,12 +189,12 @@ std::string CConf::getCallsign() const
-+ 	return m_callsign;
++ return m_callsign;
 + }
-+ 
++
 +-std::vector<uint32_t> CConf::getWhiteList() const
 ++std::vector<unsigned int> CConf::getWhiteList() const
 + {
-+ 	return m_whiteList;
++ return m_whiteList;
 + }
-+ 
++
 +-std::vector<uint32_t> CConf::getBlackList() const
 ++std::vector<unsigned int> CConf::getBlackList() const
 + {
-+ 	return m_blackList;
++ return m_blackList;
 + }
 diff --git a/libmmdvm/Makefile b/libmmdvm/Makefile
 index 0d4f2b7..829cee3 100755
