@@ -1,2 +1,2 @@
-# */10 * * * * /etc/getdmrid
-18 18 * * * /etc/getdmrid -
+# */10 * * * * /usr/sbin/DMRIDUpdate.sh
+18 18 * * * /usr/sbin/DMRIDUpdate.sh -
