@@ -13,9 +13,10 @@ DMRIDFILE_TMP=/tmp/DMRIds.dat
 # curl 'https://www.radioid.net/static/users.csv' 2>/dev/null | awk -F ',' '{print $1"\t"$2"\t"$3"\t"$4"\t"$6}'  > ${DMRIDFILE}
 
 # Pre-formatted version to speedup the update process
-wget -O ${DMRIDFILE_TMP}.gz http://downloads.ostar.me/radioid/DMRIds.dat.gz
-gzip -d ${DMRIDFILE_TMP}.gz
-mv ${DMRIDFILE_TMP} ${DMRIDFILE}
+cd /etc/mmdvm
+rm DMRIds.dat -f
+wget https://www.bi7jta.cn/files/dmrids-and-hosts/DMRIds.dat
+/etc/init.d/mmdvmhost restart
 
 # Compact version
 #wget -O ${DMRIDFILE} http://registry.dstar.su/dmr/DMRIds.php
