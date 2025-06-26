@@ -530,26 +530,6 @@ index c00b5f3..da43656 100644
  LDFLAGS = -lm -L$(LUAPATH)/lib -bundle -undefined dynamic_lookup
  
  # CXXFLAGS = -g -O3 -Wall -std=c++0x
-diff --git a/mmdvm-host/Makefile b/mmdvm-host/Makefile
-index eb95967..52df4bd 100644
---- a/mmdvm-host/Makefile
-+++ b/mmdvm-host/Makefile
-@@ -56,6 +56,8 @@ endef
- 
- define Package/${PKG_NAME}/conffiles
- /etc/MMDVM.ini
-+/etc/getdmrid
-+/etc/crontabs/root
- endef
- 
- # define Package/${PKG_NAME}/postinst
-@@ -69,4 +71,4 @@ endef
- # exit 0
- # endef
- 
--$(eval $(call BuildPackage,${PKG_NAME}))
-\ No newline at end of file
-+$(eval $(call BuildPackage,${PKG_NAME}))
 
 diff --git a/mmdvm-host/patches/003-dmrlookup.patch b/mmdvm-host/patches/003-dmrlookup.patch
 new file mode 100644
