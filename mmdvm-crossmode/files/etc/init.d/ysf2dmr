@@ -4,11 +4,10 @@
 START=99
 SERVICE_USE_PID=0
 
-PKG_NAME=YSF2P25
-PKG_NAME=YSF2P25
-BIN_FILE=/usr/sbin/YSF2P25
-CONF_FILE=/etc/YSF2P25.ini
-PID_FILE=/tmp/YSF2P25.pid
+PKG_NAME=YSF2DMR
+BIN_FILE=/usr/sbin/YSF2DMR
+CONF_FILE=/etc/YSF2DMR.ini
+PID_FILE=/tmp/YSF2DMR.pid
 
 do_start() {
   if [ -e ${CONF_FILE} ]; then
@@ -49,3 +48,4 @@ restart() {
 	stop
 	start
 }
+
