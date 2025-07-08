@@ -339,3 +339,6 @@ msgstr "RPT1 电台呼号"
 msgid "RPT2 Callsign"
 msgstr "RPT2 电台呼号"
 
+msgid "POCSAG Settings"
+msgstr "POCSAG 设置"
+
