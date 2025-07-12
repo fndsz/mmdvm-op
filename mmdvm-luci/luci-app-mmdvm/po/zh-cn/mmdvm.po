@@ -292,14 +292,14 @@ msgstr "如果启用DMR模式，下面这些信息将会显示在brandmeister.ne
 msgid "Time"
 msgstr "时间"
 
-msgid "Time slot"
+msgid "Timeslot"
 msgstr "时隙"
 
 msgid"DMR Slot 1"
-msgstr "时隙1"
+msgstr "DMR 时隙1"
 
 msgid"DMR Slot 2"
-msgstr "时隙2"
+msgstr "DMR 时隙2"
 
 msgid "URL"
 msgstr "URL地址"
