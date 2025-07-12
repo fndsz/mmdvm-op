@@ -283,6 +283,12 @@ msgstr ""
 msgid "Timeslot"
 msgstr ""
 
+msgid"DMR Slot 1"
+msgstr ""
+
+msgid"DMR Slot 2"
+msgstr ""
+
 msgid "URL"
 msgstr ""
 
