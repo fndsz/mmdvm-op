@@ -15,7 +15,7 @@ DMRIDFILE_TMP=/tmp/DMRIds.dat
 # Pre-formatted version to speedup the update process
 cd /etc/mmdvm
 rm DMRIds.dat -f
-wget https://www.bi7jta.cn/files/dmrids-and-hosts/DMRIds.dat
+wget https://ipsc2-service.xreflector.net/DMRIds.dat
 /etc/init.d/mmdvmhost restart
 
 # Compact version
